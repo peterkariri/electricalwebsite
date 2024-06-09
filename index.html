@@ -5,11 +5,11 @@
 <head>
         <meta charset="utf-8">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <title>Home || AirIP</title>
+        <title>Circuit Experts</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <!-- Favicon Icon -->
-        <link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico">
+        <link rel="shortcut icon" type="image/x-icon" href="img/circuit.png">
 		
 		<!-- Google Fonts -->
 		<link href="https://fonts.googleapis.com/css?family=Poppins:400,600" rel="stylesheet"> 
@@ -29,12 +29,12 @@
         <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
     	<!-- Header Area Start -->
-		<header class="header-area fixed">
+		<header class="header-area fixed" style="background-color: #FFDB58;">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-2 col-md-4">
                         <div class="logo">
-                            <a href="index.html"><img src="img\circuit (1).png" alt="AirIP" style="width: 150px;border-radius: 20px; margin-bottom:30px;"></a>
+                            <a href="index.html"><img src="img/circuit.png" alt="AirIP" style="width: 150px;border-radius: 20px; margin-bottom:30px;"></a>
                         </div>
                     </div>
                     <div class="col-lg-8 d-lg-block d-none">
@@ -54,7 +54,7 @@
                         <button class="modal-view nav-btn"  data-bs-toggle="modal" data-bs-target="#productModal"><i class="fa fa-bars"></i><span>Sign In / Sign Up</span></button> 
                     </div>
                     <div class="col-12">
-                       <div class="mobile-menu d-block d-lg-none">
+                       <div class="mobile-menu d-block d-lg-none" >
                             <nav>
                                 <ul>
                                     <li class="active"><a href="index.html">Home</a></li>
@@ -72,7 +72,7 @@
 		</header>
 		<!-- Header Area End -->
 		<!-- Banner Area Start -->
-		<div id="banner" class="banner-area bg-blue bg-1 fix">
+		<div id="banner" class="banner-area bg-blue bg-1 fix" style="background-color: #FFDB58;">
 		    <div class="container-fluid">
                 <div class="banner-image-wrapper">
                     <div class="banner-image">
@@ -84,22 +84,87 @@
                 <div class="banner-text">
                     <div class="text-content-wrapper">
                         <div class="text-content">
-                            <h1 class="title1">A new form of digital Electrical service.</h1>
-                            <p>Circuit Expert Enterprise is a full-service electrical contractor company dedicated to providing top-quality electrical solutions for residential, commercial, and industrial clients. With a team of highly skilled and licensed electricians, we offer a wide range of services including electrical installations, repairs, maintenance, and upgrades. </p>
+                          
+                            <p id="intro">Circuit Expert Enterprise is a full-service electrical contractor company dedicated to providing top-quality electrical solutions for residential, commercial, and industrial clients. With a team of highly skilled and licensed electricians, we offer a wide range of services including electrical installations, repairs, maintenance, and upgrades. </p>
                             <div class="banner-button">
-                                <a class="default-btn button" href="#">Get Started</a>	                
-                                <a class="default-btn button" href="#">Get Service</a>	                
+                                <a class="default-btn button" href="#" id="buttonget">Get Started</a>	                
                             </div>
                         </div>
                     </div>
                 </div>
 		    </div>
 		</div>
+        	<!-- service Area Start -->
+		<div class="feature-area bg-light pt-90 pb-60 fix" id="service">
+		    <div class="container">
+                <div class="row">
+                    <div class="col-xl-6 col-lg-8">
+                        <div class="section-title">
+                            <h2>Our Services</h2>
+                            <p>Delivering high quality electrical installations and services
+                                that meet or exceed industry standards.</p>
+                        </div>
+                    </div>
+                </div>
+		        <div class="row">
+		            <div class="col-lg-12">
+		                <div class="feature-image-content">
+                            <div class="about-image wow fadeInLeft" data-wow-duration="1.2s" data-wow-delay=".3s">
+                                <img src="img\banner\generators.jpeg" alt="" class="floatright" style="width:80%; margin: 0 auto;">
+                            </div>
+		                </div>
+		                <div class="feature-text-content wow fadeInRight" data-wow-duration="2s" data-wow-delay=".5s">
+		                    <div class="feature-wrapper">
+		                        <div class="single-feature">
+		                            <div class="feature-icon">
+		                                <i class="fa fa-bar-chart"></i>
+		                            </div>
+		                            <div class="feature-text">
+		                                <h3>Electrical installation</h3>
+                                        <p>We provide expert electrical installation services to ensure your home or business has safe and reliable electrical systems. Our certified electricians can handle a wide range of electrical projects, from new installations and upgrades to repairs and maintenance. </p>
+		                            </div>
+		                        </div>
+		                        <div class="single-feature">
+		                            <div class="feature-icon">
+		                                <i class="fa fa-headphones"></i>
+		                            </div>
+		                            <div class="feature-text">
+		                                <h3>Solar PV installation and maintenance</h3>
+                                        <p>Embrace the power of the sun! We offer comprehensive solar PV (photovoltaic) installation and maintenance services. Our team will design a solar system tailored to your needs and ensure it operates efficiently for years to come. Reduce your electricity bills and contribute to a sustainable future with solar power.</p>
+		                            </div>
+		                        </div>
+		                       
+		                        <div class="single-feature">
+		                            <div class="feature-icon">
+		                                <i class="fa fa-headphones"></i>
+		                            </div>
+		                            <div class="feature-text">
+		                                <h3>CCTV</h3>
+                                        <p>Enhance your security with our CCTV (closed-circuit television) installation services. We offer a variety of camera systems to fit your specific requirements, whether you need to monitor your property remotely or deter potential intruders. Our technicians will professionally install and configure your CCTV system.</p>
+		                            </div>
+		                        </div>
+		                        <div class="single-feature">
+		                            <div class="feature-icon">
+		                                <i class="fa fa-ioxhost"></i>
+		                            </div>
+		                            <div class="feature-text">
+		                                <h3>Generator installation and maintenance</h3>
+                                        <p>Never be without power during outages! We provide reliable generator installation and maintenance services. Our team will recommend the right size generator for your needs and ensure it's properly installed and maintained for seamless operation when you need it most.</p>
+		                            </div>
+		                        </div>
+		                    </div>
+		                </div>
+		            </div>
+		        </div>
+		    </div>
+		</div>
+		<!-- service Area End -->
+		<!-- Service Business Area Start -->
 		<!-- Banner Area End -->
 		<!-- feature Area Start -->
 		<div id="feature" class="service-area bg-2">
 		    <div class="container">
-                <div class="row">
+                <div class="row" id="one-1">
                     <div class="col-lg-12">
                         <div class="single-service-container">
                             <div class="single-service-item">
@@ -160,6 +225,7 @@
                         </div>
                     </div>
                 </div>
+
                 <div class="service-section" id="choose">
                     <div class="row">
                         <div class="offset-xl-6 col-xl-6 col-lg-8 offset-lg-4 col-md-12 col-12">
@@ -391,72 +457,7 @@
 		    </div>
 		</div>
 		<!-- FAQ Area End -->
-		<!-- service Area Start -->
-		<div class="feature-area bg-light pt-90 pb-60 fix" id="service">
-		    <div class="container">
-                <div class="row">
-                    <div class="col-xl-6 col-lg-8">
-                        <div class="section-title">
-                            <h2>Our Services</h2>
-                            <p>Delivering high quality electrical installations and services
-                                that meet or exceed industry standards.</p>
-                        </div>
-                    </div>
-                </div>
-		        <div class="row">
-		            <div class="col-lg-12">
-		                <div class="feature-image-content">
-                            <div class="about-image wow fadeInLeft" data-wow-duration="1.2s" data-wow-delay=".3s">
-                                <img src="img\banner\generators.jpeg" alt="" class="floatright" style="width:80%; margin: 0 auto;">
-                            </div>
-		                </div>
-		                <div class="feature-text-content wow fadeInRight" data-wow-duration="2s" data-wow-delay=".5s">
-		                    <div class="feature-wrapper">
-		                        <div class="single-feature">
-		                            <div class="feature-icon">
-		                                <i class="fa fa-bar-chart"></i>
-		                            </div>
-		                            <div class="feature-text">
-		                                <h3>Electrical installation</h3>
-                                        <p>We provide expert electrical installation services to ensure your home or business has safe and reliable electrical systems. Our certified electricians can handle a wide range of electrical projects, from new installations and upgrades to repairs and maintenance. </p>
-		                            </div>
-		                        </div>
-		                        <div class="single-feature">
-		                            <div class="feature-icon">
-		                                <i class="fa fa-headphones"></i>
-		                            </div>
-		                            <div class="feature-text">
-		                                <h3>Solar PV installation and maintenance</h3>
-                                        <p>Embrace the power of the sun! We offer comprehensive solar PV (photovoltaic) installation and maintenance services. Our team will design a solar system tailored to your needs and ensure it operates efficiently for years to come. Reduce your electricity bills and contribute to a sustainable future with solar power.</p>
-		                            </div>
-		                        </div>
-		                       
-		                        <div class="single-feature">
-		                            <div class="feature-icon">
-		                                <i class="fa fa-headphones"></i>
-		                            </div>
-		                            <div class="feature-text">
-		                                <h3>CCTV</h3>
-                                        <p>Enhance your security with our CCTV (closed-circuit television) installation services. We offer a variety of camera systems to fit your specific requirements, whether you need to monitor your property remotely or deter potential intruders. Our technicians will professionally install and configure your CCTV system.</p>
-		                            </div>
-		                        </div>
-		                        <div class="single-feature">
-		                            <div class="feature-icon">
-		                                <i class="fa fa-ioxhost"></i>
-		                            </div>
-		                            <div class="feature-text">
-		                                <h3>Generator installation and maintenance</h3>
-                                        <p>Never be without power during outages! We provide reliable generator installation and maintenance services. Our team will recommend the right size generator for your needs and ensure it's properly installed and maintained for seamless operation when you need it most.</p>
-		                            </div>
-		                        </div>
-		                    </div>
-		                </div>
-		            </div>
-		        </div>
-		    </div>
-		</div>
-		<!-- service Area End -->
-		<!-- Service Business Area Start -->
+	
 		<div class="service-business-area fix">
 		    <div class="container">
                 <div class="service-left">
@@ -592,7 +593,8 @@
         <div class="map-area">
             <div class="contact-map">
                 <div id="hastech">
-                    <iframe class="w-100 h-100" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2136.986005919501!2d-73.9685579655238!3d40.75862446708152!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c258e4a1c884e5%3A0x24fe1071086b36d5!2sThe%20Atrium!5e0!3m2!1sen!2sbd!4v1585132512970!5m2!1sen!2sbd"></iframe>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15845.243671430993!2d36.644988032031534!3d-1.2531976685999144!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182f1eee9be27453%3A0xfbe56f4b3c852571!2sKikuyu!5e0!3m2!1sen!2ske!4v1716971286122!5m2!1sen!2ske" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>                </div>
+
                 </div>
             </div>
         </div>
@@ -603,7 +605,7 @@
                     <div class="col-lg-3 col-md-6">
                         <div class="single-footer-widget">
                             <div class="footer-title">
-                                <h1>01</h1>
+                                
                                 <h2>Contact</h2>
                             </div>
                             <div class="footer-content">
@@ -626,7 +628,7 @@
                     <div class="col-lg-3 col-md-6">
                         <div class="single-footer-widget">
                             <div class="footer-title">
-                                <h1>02</h1>
+                              
                                 <h2>Information</h2>
                             </div>
                             <div class="footer-content">
@@ -642,7 +644,7 @@
                     <div class="col-lg-3 col-md-6">
                         <div class="single-footer-widget">
                             <div class="footer-title">
-                                <h1>03</h1>
+                               
                                 <h2>Support</h2>
                             </div>
                             <div class="footer-content">
@@ -656,7 +658,7 @@
                     <div class="col-lg-3 col-md-6">
                         <div class="single-footer-widget">
                             <div class="footer-title">
-                                <h1>04</h1>
+                               
                                 <h2>Why Air.IP</h2>
                             </div>
                             <div class="footer-content">

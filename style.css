@@ -51,6 +51,19 @@ body {
 .clear {
     clear: both
 }
+#intro{
+    font-size: 22px;
+    line-height: 30px;
+    color: black;
+}
+#buttonget{
+    background-color: #000;
+}
+#buttonget:hover{
+    background-color:white;
+    color: #e2b308;
+
+}
 .fix {
     overflow: hidden
 }
@@ -72,7 +85,7 @@ h3,
 h4,
 h5,
 h6 {
-    color: #303030;
+    color: #030303;
     margin: 0;
     font-weight: 500
 }
@@ -96,6 +109,7 @@ h6{
 }
 a {
     text-decoration: none;
+    color: #000;
 }
 a:focus,
 .btn:focus {
@@ -130,7 +144,7 @@ h3 a,
 h4 a,
 h5 a,
 h6 a {
-    color: inherit
+    color: black;
 }
 label {
     font-size: 15px;
@@ -147,6 +161,9 @@ label {
     background: #b3d4fc;
     text-shadow: none;
 }
+#service{
+    margin-bottom: 5%;
+}
 ::selection {
     background: #b3d4fc;
     text-shadow: none;
@@ -160,7 +177,7 @@ label {
 }
 .mark,
 mark {
-    background: #4fc1f0 none repeat scroll 0 0;
+    background: #071014 none repeat scroll 0 0;
     color: #ffffff;
 }
 .f-left {
@@ -435,7 +452,7 @@ textarea {
     background: #F5F5F5
 }
 .bg-blue {
-    background-color: #0091EA
+    background-color:#FFDB58;
 }
 .bg-1,
 .bg-2,
@@ -469,9 +486,9 @@ textarea {
     position: relative
 }
 .overlay-blue:before {
-    background: rgba(0, 145, 234, 1) none repeat scroll 0 0;
+    background: #FFDB58 none repeat scroll 0 0;
     content: "";
-    height: 100%;
+    height: 70%;
     left: 0;
     position: absolute;
     top: 0;
@@ -503,7 +520,8 @@ textarea {
 }
 .logo,
 .logo a {
-    display: inline-block;
+    display: flex;
+    flex-direction: row;
 }
 .fixed {
     left: 0;
@@ -519,11 +537,14 @@ textarea {
     display: inline-block;
 }
 .main-menu ul li a {
-    color: #ffffff;
+    color: black;
     display: inline-block;
     font-size: 16px;
     padding: 11px 0;
     position: relative;
+}
+.main-menu ul li a:hover{
+    color:white;
 }
 .main-menu ul li a:before,
 .main-menu ul li a:after {
@@ -573,7 +594,7 @@ button.nav-btn span {
 .header-area.sticky {
     -webkit-animation: 300ms ease-in-out 0s normal none 1 running fadeInDown;
     animation: 300ms ease-in-out 0s normal none 1 running fadeInDown;
-    background: rgba(0, 145, 234, 0.95) none repeat scroll 0 0;
+    background: #FFDB58 none repeat scroll 0 0;
     left: 0;
     padding: 0;
     position: fixed;
@@ -610,16 +631,16 @@ button.nav-btn span {
     top: 10px;
 }
 .mean-container .mean-nav ul li a {
-    color: #0091ea;
+    color: #FFDB58;
 }
 .mean-container .mean-nav ul li:hover a {
     color: #212121;
 }
 .mean-container a.meanmenu-reveal {
-    border: 1px solid #ffffff;
+    border: 2px solid #000;
     border-radius: 3px;
-    color: #ffffff;
-    font-weight: 400;
+    color: #000;
+    font-weight: 900;
     padding: 5px 8px;
 }
 .sticky .mean-nav {
@@ -696,7 +717,7 @@ button.nav-btn span {
 }
 .banner-button .button:hover {
     background: #ffffff none repeat scroll 0 0;
-    color: #0091ea;
+    color:#FFDB58;
 }
 /*----------------------------------------*/
 /*  4.  Service Area
@@ -802,7 +823,7 @@ button.nav-btn span {
     width: 50%;
 }
 .service-item:hover h3 {
-    color: #0091ea;
+    color: #FFDB58;
 }
 .service-container h2 {
     color: #121212;
@@ -917,7 +938,7 @@ button.nav-btn span {
     color: #999999;
 }
 .newsletter-form button {
-    background: #0091ea none repeat scroll 0 0;
+    background: #FFDB58 none repeat scroll 0 0;
     border: 0 none;
     border-radius: 3px;
     color: #ffffff;
@@ -1015,10 +1036,10 @@ button.nav-btn span {
     color: #f4f4f4;
 }
 .best-pack .table-title {
-    background: #0091ea url("img/bg/table-blue.png") no-repeat scroll center bottom / 100% auto;
+    background:#FFDB58 url("img/bg/table-blue.png") no-repeat scroll center bottom / 100% auto;
 }
 .best-pack .table-content:after {
-    border-bottom: 2px solid #0091ea;
+    border-bottom: 2px solid #FFDB58;
     bottom: 0;
     content: "";
     height: 2px;
@@ -1027,11 +1048,11 @@ button.nav-btn span {
     width: 100%;
 }
 .best-pack .table-btn {
-    border-color: #0091ea;
-    color: #0091ea;
+    border-color: #FFDB58;
+    color:#FFDB58;
 }
 .best-pack .table-btn:hover {
-    background: #0091ea none repeat scroll 0 0;
+    background: #FFDB58 none repeat scroll 0 0;
     color: #f4f4f4;
 }
 /*----------------------------------------*/
@@ -1080,7 +1101,7 @@ button.nav-btn span {
     color: #777777;
 }
 .make-call-registration .submit-btn {
-    background: #0091ea none repeat scroll 0 0;
+    background: #FFDB58 none repeat scroll 0 0;
     border: 0 none;
     border-radius: 3px;
     color: #ffffff;
@@ -1103,8 +1124,8 @@ button.nav-btn span {
     margin: 0 13px;
 }
 .call-button .default-btn:hover {
-    background: #0091ea none repeat scroll 0 0;
-    border-color: #0091ea;
+    background:#FFDB58 none repeat scroll 0 0;
+    border-color:#FFDB58;
     color: #ffffff;
 }
 /*----------------------------------------*/
@@ -1323,7 +1344,7 @@ button.nav-btn span {
     outline: 0
 }
 .single-feature:hover .feature-icon {
-    background: #0091ea none repeat scroll 0 0;
+    background:#FFDB58 none repeat scroll 0 0;
 }
 .slick-dots li button {
     background: #999999 none repeat scroll 0 0;
@@ -1416,12 +1437,12 @@ button.nav-btn span {
     margin-top: 3px;
 }
 .button-link .default-btn:hover {
-    background: #0091ea none repeat scroll 0 0;
-    border-color: #0091ea;
+    background: #FFDB58 none repeat scroll 0 0;
+    border-color: #FFDB58;
     color: #ffffff;
 }
 .button-link .service {
-    color: #0091ea;
+    color: #FFDB58;
     font-size: 16px;
     font-weight: 500;
     padding-left: 16px;
@@ -1446,7 +1467,7 @@ button.nav-btn span {
     margin-bottom: 8px;
 }
 .single-testimonial > h4:hover a {
-    color: #0091ea
+    color: #FFDB58
 }
 .single-testimonial > h5 {
     color: #444444;
@@ -1509,7 +1530,7 @@ button.nav-btn span {
     margin-bottom: 13px;
 }
 .footer-widget-list a:hover {
-    color: #0091ea;
+    color: #FFDB58;
     padding-left: 5px;
 }
 .footer-widget-area .col-lg-3:nth-child(2) .single-footer-widget,
@@ -1582,7 +1603,7 @@ button.nav-btn span {
 .header-tab-menu .nav-tabs li a {
     background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
     border: 1px solid rgba(0, 0, 0, 0);
-    color: #0091EA;
+    color:#FFDB58;
     font-size: 20px;
     font-weight: 500;
     margin: 0;
@@ -1593,7 +1614,7 @@ button.nav-btn span {
     color: #444
 }
 .modal-dialog button.close {
-    background: #0091ea none repeat scroll 0 0;
+    background: #FFDB58 none repeat scroll 0 0;
     border-radius: 50%;
     color: #ffffff;
     cursor: pointer;
@@ -1680,25 +1701,25 @@ button.nav-btn span {
     width: 17px;
 }
 .login-toggle-btn .default-btn {
-    border-color: #0091ea;
+    border-color: #FFDB58;
 }
 .button-box .default-btn {
-    border-color: #0091ea;
-    color: #0091ea;
+    border-color: #FFDB58;
+    color: #FFDB58;
     font-size: 14px;
     margin-top: 10px;
     padding: 8px 36px;
     background: #f5f5f5
 }
 .button-box .default-btn:hover {
-    background: #0091ea none repeat scroll 0 0;
+    background: #FFDB58 none repeat scroll 0 0;
     color: #f5f5f5;
 }
 .login-toggle-btn {
     padding-top: 26px;
 }
 .login-toggle-btn > a {
-    color: #0091ea;
+    color:#FFDB58;
     float: right;
 }
 .login-toggle-btn > a:hover {
@@ -1709,7 +1730,7 @@ button.nav-btn span {
 /*----------------------------------------*/
 
 #scrollUp {
-    background: #0091ea none repeat scroll 0 0;
+    background:#FFDB58 none repeat scroll 0 0;
     bottom: 40px;
     color: #ffffff;
     cursor: pointer;
@@ -1820,13 +1841,13 @@ h2.page-title {
 }
 .contact-from input:focus,
 .contact-from textarea:focus {
-    border-color: #0091ea;
+    border-color: #FFDB58;
     box-shadow: inherit;
     outline: 0 none;
 }
 .contact-from input.submit:hover {
-    background-color: #0091ea;
-    border: 1px solid #0091ea;
+    background-color: #FFDB58;
+    border: 1px solid #FFDB58;
     color: #fff;
 }
 .conatct-info {
@@ -1865,7 +1886,7 @@ h2.page-title {
     font-family: "Exo 2", sans-serif;
 }
 .contact-text > span a:hover {
-    color: #0091ea;
+    color: #FFDB58;
 }
 .contact-area .section-title > h2 {
     color: #121212;
@@ -1877,8 +1898,8 @@ h2.page-title {
     color: #fff;
 }
 .single-contact-info:hover .contact-icon {
-    background-color: #0091ea;
-    border: 1px solid #0091ea;
+    background-color:#FFDB58;
+    border: 1px solid #FFDB58;
     box-shadow: 0 0 12px rgba(0, 0, 0, 0.35);
 }
 #hastech {
@@ -1897,3 +1918,14 @@ h2.page-title {
     color: #444;
     opacity: 1;
 }
+@media only screen and (max-width: 768px) {
+    #one-1{
+        height: 50%;
+        margin-top: 60%;
+     }
+    .banner-image{
+        display: block;
+    }
+     
+    
+   }
