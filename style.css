@@ -1,43 +1,3 @@
-<<<<<<< HEAD
-=======
-/*-----------------------------------------------------------------------------
-    Template Name: Airip - VOIP, Telecom And Cloud Services Template
-    Template URI: https://template.hasthemes.com/airip/
-    Description: This is html5 template
-    Author: HasTech
-    Author URI: https://hasthemes.com/
-    Version: 1.0
--------------------------------------------------------------------------------
-    
-    CSS INDEX
-    ===================
-	
-    1.  Default CSS
-    2.  Header Area
-    3.  Slider Area
-    4.  Service Area
-    5.  Newsletter Fun Area
-        5.1  Newsletter Area
-        5.2  Fun Area
-    6.  Pricing Area
-    7.  Make Call Area
-    8.  FAQ Area
-    9.  Feature Area
-    10.  Service Business Area
-    11.  Testimonial Area
-    12.  Footer Widget Area
-    13.  Footer Area
-    14.  Modal
-    15.  ScrollUp
-    16.  Breadcrumbs
-    17.  Services page
-    18.  Contact page
-
-/*----------------------------------------*/
-/*  1.  Default CSS
-/*----------------------------------------*/
-
->>>>>>> 8946002 (new website)
 @import url('https://fonts.googleapis.com/css?family=Exo+2:400,700|Raleway:400,500&amp;display=swap');
 html,
 body {
@@ -54,22 +14,6 @@ body {
 .clear {
     clear: both
 }
-<<<<<<< HEAD
-=======
-#intro{
-    font-size: 22px;
-    line-height: 30px;
-    color: black;
-}
-#buttonget{
-    background-color: #000;
-}
-#buttonget:hover{
-    background-color:white;
-    color: #e2b308;
-
-}
->>>>>>> 8946002 (new website)
 .fix {
     overflow: hidden
 }
@@ -91,11 +35,7 @@ h3,
 h4,
 h5,
 h6 {
-<<<<<<< HEAD
     color: #303030;
-=======
-    color: #030303;
->>>>>>> 8946002 (new website)
     margin: 0;
     font-weight: 500
 }
@@ -119,10 +59,6 @@ h6{
 }
 a {
     text-decoration: none;
-<<<<<<< HEAD
-=======
-    color: #000;
->>>>>>> 8946002 (new website)
 }
 a:focus,
 .btn:focus {
@@ -157,11 +93,7 @@ h3 a,
 h4 a,
 h5 a,
 h6 a {
-<<<<<<< HEAD
-    color: inherit
-=======
     color: black;
->>>>>>> 8946002 (new website)
 }
 label {
     font-size: 15px;
@@ -169,7 +101,7 @@ label {
     color: #606060;
 }
 *::-moz-selection {
-    background: #b3d4fc;
+    background: #FFDB58;
     color: #fff;
     text-shadow: none;
 }
@@ -178,12 +110,6 @@ label {
     background: #b3d4fc;
     text-shadow: none;
 }
-<<<<<<< HEAD
-=======
-#service{
-    margin-bottom: 5%;
-}
->>>>>>> 8946002 (new website)
 ::selection {
     background: #b3d4fc;
     text-shadow: none;
@@ -197,11 +123,7 @@ label {
 }
 .mark,
 mark {
-<<<<<<< HEAD
-    background: #4fc1f0 none repeat scroll 0 0;
-=======
     background: #071014 none repeat scroll 0 0;
->>>>>>> 8946002 (new website)
     color: #ffffff;
 }
 .f-left {
@@ -476,11 +398,7 @@ textarea {
     background: #F5F5F5
 }
 .bg-blue {
-<<<<<<< HEAD
-    background-color: #0091EA
-=======
     background-color:#FFDB58;
->>>>>>> 8946002 (new website)
 }
 .bg-1,
 .bg-2,
@@ -514,15 +432,9 @@ textarea {
     position: relative
 }
 .overlay-blue:before {
-<<<<<<< HEAD
-    background: rgba(0, 145, 234, 1) none repeat scroll 0 0;
-    content: "";
-    height: 100%;
-=======
     background: #FFDB58 none repeat scroll 0 0;
     content: "";
     height: 70%;
->>>>>>> 8946002 (new website)
     left: 0;
     position: absolute;
     top: 0;
@@ -554,12 +466,8 @@ textarea {
 }
 .logo,
 .logo a {
-<<<<<<< HEAD
-    display: inline-block;
-=======
     display: flex;
     flex-direction: row;
->>>>>>> 8946002 (new website)
 }
 .fixed {
     left: 0;
@@ -575,22 +483,15 @@ textarea {
     display: inline-block;
 }
 .main-menu ul li a {
-<<<<<<< HEAD
-    color: #ffffff;
-=======
     color: black;
->>>>>>> 8946002 (new website)
     display: inline-block;
     font-size: 16px;
     padding: 11px 0;
     position: relative;
 }
-<<<<<<< HEAD
-=======
 .main-menu ul li a:hover{
     color:white;
 }
->>>>>>> 8946002 (new website)
 .main-menu ul li a:before,
 .main-menu ul li a:after {
     display: inline-block;
@@ -639,11 +540,7 @@ button.nav-btn span {
 .header-area.sticky {
     -webkit-animation: 300ms ease-in-out 0s normal none 1 running fadeInDown;
     animation: 300ms ease-in-out 0s normal none 1 running fadeInDown;
-<<<<<<< HEAD
-    background: rgba(0, 145, 234, 0.95) none repeat scroll 0 0;
-=======
     background: #FFDB58 none repeat scroll 0 0;
->>>>>>> 8946002 (new website)
     left: 0;
     padding: 0;
     position: fixed;
@@ -680,27 +577,16 @@ button.nav-btn span {
     top: 10px;
 }
 .mean-container .mean-nav ul li a {
-<<<<<<< HEAD
-    color: #0091ea;
-=======
     color: #FFDB58;
->>>>>>> 8946002 (new website)
 }
 .mean-container .mean-nav ul li:hover a {
     color: #212121;
 }
 .mean-container a.meanmenu-reveal {
-<<<<<<< HEAD
-    border: 1px solid #ffffff;
-    border-radius: 3px;
-    color: #ffffff;
-    font-weight: 400;
-=======
     border: 2px solid #000;
     border-radius: 3px;
     color: #000;
     font-weight: 900;
->>>>>>> 8946002 (new website)
     padding: 5px 8px;
 }
 .sticky .mean-nav {
@@ -777,11 +663,7 @@ button.nav-btn span {
 }
 .banner-button .button:hover {
     background: #ffffff none repeat scroll 0 0;
-<<<<<<< HEAD
-    color: #0091ea;
-=======
     color:#FFDB58;
->>>>>>> 8946002 (new website)
 }
 /*----------------------------------------*/
 /*  4.  Service Area
@@ -887,11 +769,7 @@ button.nav-btn span {
     width: 50%;
 }
 .service-item:hover h3 {
-<<<<<<< HEAD
-    color: #0091ea;
-=======
     color: #FFDB58;
->>>>>>> 8946002 (new website)
 }
 .service-container h2 {
     color: #121212;
@@ -1006,11 +884,7 @@ button.nav-btn span {
     color: #999999;
 }
 .newsletter-form button {
-<<<<<<< HEAD
-    background: #0091ea none repeat scroll 0 0;
-=======
     background: #FFDB58 none repeat scroll 0 0;
->>>>>>> 8946002 (new website)
     border: 0 none;
     border-radius: 3px;
     color: #ffffff;
@@ -1108,17 +982,10 @@ button.nav-btn span {
     color: #f4f4f4;
 }
 .best-pack .table-title {
-<<<<<<< HEAD
-    background: #0091ea url("img/bg/table-blue.png") no-repeat scroll center bottom / 100% auto;
-}
-.best-pack .table-content:after {
-    border-bottom: 2px solid #0091ea;
-=======
     background:#FFDB58 url("img/bg/table-blue.png") no-repeat scroll center bottom / 100% auto;
 }
 .best-pack .table-content:after {
     border-bottom: 2px solid #FFDB58;
->>>>>>> 8946002 (new website)
     bottom: 0;
     content: "";
     height: 2px;
@@ -1127,19 +994,11 @@ button.nav-btn span {
     width: 100%;
 }
 .best-pack .table-btn {
-<<<<<<< HEAD
-    border-color: #0091ea;
-    color: #0091ea;
-}
-.best-pack .table-btn:hover {
-    background: #0091ea none repeat scroll 0 0;
-=======
     border-color: #FFDB58;
     color:#FFDB58;
 }
 .best-pack .table-btn:hover {
     background: #FFDB58 none repeat scroll 0 0;
->>>>>>> 8946002 (new website)
     color: #f4f4f4;
 }
 /*----------------------------------------*/
@@ -1188,11 +1047,7 @@ button.nav-btn span {
     color: #777777;
 }
 .make-call-registration .submit-btn {
-<<<<<<< HEAD
-    background: #0091ea none repeat scroll 0 0;
-=======
     background: #FFDB58 none repeat scroll 0 0;
->>>>>>> 8946002 (new website)
     border: 0 none;
     border-radius: 3px;
     color: #ffffff;
@@ -1215,13 +1070,8 @@ button.nav-btn span {
     margin: 0 13px;
 }
 .call-button .default-btn:hover {
-<<<<<<< HEAD
-    background: #0091ea none repeat scroll 0 0;
-    border-color: #0091ea;
-=======
     background:#FFDB58 none repeat scroll 0 0;
     border-color:#FFDB58;
->>>>>>> 8946002 (new website)
     color: #ffffff;
 }
 /*----------------------------------------*/
@@ -1440,11 +1290,7 @@ button.nav-btn span {
     outline: 0
 }
 .single-feature:hover .feature-icon {
-<<<<<<< HEAD
-    background: #0091ea none repeat scroll 0 0;
-=======
     background:#FFDB58 none repeat scroll 0 0;
->>>>>>> 8946002 (new website)
 }
 .slick-dots li button {
     background: #999999 none repeat scroll 0 0;
@@ -1537,21 +1383,12 @@ button.nav-btn span {
     margin-top: 3px;
 }
 .button-link .default-btn:hover {
-<<<<<<< HEAD
-    background: #0091ea none repeat scroll 0 0;
-    border-color: #0091ea;
-    color: #ffffff;
-}
-.button-link .service {
-    color: #0091ea;
-=======
     background: #FFDB58 none repeat scroll 0 0;
     border-color: #FFDB58;
     color: #ffffff;
 }
 .button-link .service {
     color: #FFDB58;
->>>>>>> 8946002 (new website)
     font-size: 16px;
     font-weight: 500;
     padding-left: 16px;
@@ -1576,11 +1413,7 @@ button.nav-btn span {
     margin-bottom: 8px;
 }
 .single-testimonial > h4:hover a {
-<<<<<<< HEAD
-    color: #0091ea
-=======
     color: #FFDB58
->>>>>>> 8946002 (new website)
 }
 .single-testimonial > h5 {
     color: #444444;
@@ -1643,11 +1476,7 @@ button.nav-btn span {
     margin-bottom: 13px;
 }
 .footer-widget-list a:hover {
-<<<<<<< HEAD
-    color: #0091ea;
-=======
     color: #FFDB58;
->>>>>>> 8946002 (new website)
     padding-left: 5px;
 }
 .footer-widget-area .col-lg-3:nth-child(2) .single-footer-widget,
@@ -1720,11 +1549,7 @@ button.nav-btn span {
 .header-tab-menu .nav-tabs li a {
     background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
     border: 1px solid rgba(0, 0, 0, 0);
-<<<<<<< HEAD
-    color: #0091EA;
-=======
     color:#FFDB58;
->>>>>>> 8946002 (new website)
     font-size: 20px;
     font-weight: 500;
     margin: 0;
@@ -1735,11 +1560,7 @@ button.nav-btn span {
     color: #444
 }
 .modal-dialog button.close {
-<<<<<<< HEAD
-    background: #0091ea none repeat scroll 0 0;
-=======
     background: #FFDB58 none repeat scroll 0 0;
->>>>>>> 8946002 (new website)
     border-radius: 50%;
     color: #ffffff;
     cursor: pointer;
@@ -1826,41 +1647,25 @@ button.nav-btn span {
     width: 17px;
 }
 .login-toggle-btn .default-btn {
-<<<<<<< HEAD
-    border-color: #0091ea;
-}
-.button-box .default-btn {
-    border-color: #0091ea;
-    color: #0091ea;
-=======
     border-color: #FFDB58;
 }
 .button-box .default-btn {
     border-color: #FFDB58;
     color: #FFDB58;
->>>>>>> 8946002 (new website)
     font-size: 14px;
     margin-top: 10px;
     padding: 8px 36px;
     background: #f5f5f5
 }
 .button-box .default-btn:hover {
-<<<<<<< HEAD
-    background: #0091ea none repeat scroll 0 0;
-=======
     background: #FFDB58 none repeat scroll 0 0;
->>>>>>> 8946002 (new website)
     color: #f5f5f5;
 }
 .login-toggle-btn {
     padding-top: 26px;
 }
 .login-toggle-btn > a {
-<<<<<<< HEAD
-    color: #0091ea;
-=======
     color:#FFDB58;
->>>>>>> 8946002 (new website)
     float: right;
 }
 .login-toggle-btn > a:hover {
@@ -1871,11 +1676,7 @@ button.nav-btn span {
 /*----------------------------------------*/
 
 #scrollUp {
-<<<<<<< HEAD
-    background: #0091ea none repeat scroll 0 0;
-=======
     background:#FFDB58 none repeat scroll 0 0;
->>>>>>> 8946002 (new website)
     bottom: 40px;
     color: #ffffff;
     cursor: pointer;
@@ -1986,22 +1787,13 @@ h2.page-title {
 }
 .contact-from input:focus,
 .contact-from textarea:focus {
-<<<<<<< HEAD
-    border-color: #0091ea;
-=======
     border-color: #FFDB58;
->>>>>>> 8946002 (new website)
     box-shadow: inherit;
     outline: 0 none;
 }
 .contact-from input.submit:hover {
-<<<<<<< HEAD
-    background-color: #0091ea;
-    border: 1px solid #0091ea;
-=======
     background-color: #FFDB58;
     border: 1px solid #FFDB58;
->>>>>>> 8946002 (new website)
     color: #fff;
 }
 .conatct-info {
@@ -2040,11 +1832,7 @@ h2.page-title {
     font-family: "Exo 2", sans-serif;
 }
 .contact-text > span a:hover {
-<<<<<<< HEAD
-    color: #0091ea;
-=======
     color: #FFDB58;
->>>>>>> 8946002 (new website)
 }
 .contact-area .section-title > h2 {
     color: #121212;
@@ -2056,13 +1844,8 @@ h2.page-title {
     color: #fff;
 }
 .single-contact-info:hover .contact-icon {
-<<<<<<< HEAD
-    background-color: #0091ea;
-    border: 1px solid #0091ea;
-=======
     background-color:#FFDB58;
     border: 1px solid #FFDB58;
->>>>>>> 8946002 (new website)
     box-shadow: 0 0 12px rgba(0, 0, 0, 0.35);
 }
 #hastech {
@@ -2080,9 +1863,6 @@ h2.page-title {
     /* Firefox 19+ */
     color: #444;
     opacity: 1;
-<<<<<<< HEAD
-}
-=======
 }
 @media only screen and (max-width: 768px) {
     #one-1{
@@ -2092,4 +1872,3 @@ h2.page-title {
 
     
    }
->>>>>>> 8946002 (new website)
