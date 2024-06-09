@@ -14,6 +14,18 @@ body {
 .clear {
     clear: both
 }
+#intro-1{
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 30px;
+    color: #000;
+}
+#buttonget{
+    background-color: #000;
+}
+#buttonget:hover{
+    background-color: white;
+}
 .fix {
     overflow: hidden
 }
