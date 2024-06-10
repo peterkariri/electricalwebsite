@@ -15,10 +15,14 @@ body {
     clear: both
 }
 #intro-1{
+    margin-top: 3%;
     font-size: 22px;
     font-weight: 500;
     line-height: 30px;
     color: #000;
+}
+#banner{
+    padding-top: 10%;
 }
 #buttonget{
     background-color: #000;
@@ -1878,9 +1882,17 @@ h2.page-title {
 }
 @media only screen and (max-width: 768px) {
     #one-1{
-        height: 50%;
-        margin-top: 60%;
+       height: 50%;
+       margin-top: 40%;
      }
+   
+   
+     #banner{
+        margin-top: 60%;
+
+        margin-bottom: 30%;
+     }
+}
 
     
-   }
+   
